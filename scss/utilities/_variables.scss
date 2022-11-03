@@ -1,0 +1,37 @@
+// ==========================================================================
+// Variables
+// ==========================================================================
+
+
+/* ============================================= */
+/*         Descriptive colors                    */
+/* ============================================= */
+
+$alabaster:              #FCFCFC;
+$alto:                   #DFDFDF;
+$oslo-gray:              #888E92;
+$river-bed:              #404A51;
+$tundora:                #4A4A4A;
+$white:                  #FFFFFF;
+
+/* ============================================= */
+/*         Base style colors                     */
+/* ============================================= */
+
+$color-primary:          $alabaster;
+$colo-secondary:         $white;
+
+$font-color-primary:     $oslo-gray;
+$font-color-secondary:   $river-bed;
+$font-color-tertiary:    $tundora;
+
+$border-color:           $alto;
+
+
+/* ============================================= */
+/*              Media Queries                    */
+/* ============================================= */
+
+$sm-break:                320px;
+$med-break:               768px;
+$lg-break:                1024px;

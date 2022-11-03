@@ -1,0 +1,30 @@
+@import 'utilities/index',
+        'base/index',
+        'component/index',
+        'layout/index';
+
+/* ============================================= */
+/*              Media Queries                    */
+/* ============================================= */
+
+@media (min-width: $med-break) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px 40px;
+    }
+
+    .modal {
+        width: 400px;
+        padding: 20px;
+    }
+}
+
+@media (min-width: $lg-break) {
+    header {
+        padding: 20px;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr 1fr 1fr;        
+    }
+}

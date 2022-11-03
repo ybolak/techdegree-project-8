@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: $color-primary;
+}
+
+h2,
+p {
+    margin: 5px 0;
+}
+
+header {
+   padding: 10px;
+}
+
+hr {
+    margin: 35px 0;
+}
+
+.card,
+.modal {
+    padding: 5px;
+    border: 2px solid $border-color;
+    border-radius: 10px;
+    background-color: $colo-secondary;
+}
+
+.modal {
+    text-align: center;
+
+    p {
+        margin: 10px 0;
+    }
+}
+
+.modal-close {
+    padding-right: 30px;
+    text-align: end;
+}
+
+.details {
+    p {
+        margin: 20px 0;
+    }
+}
