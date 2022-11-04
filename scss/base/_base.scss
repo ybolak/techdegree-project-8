@@ -2,9 +2,7 @@
     box-sizing: border-box;
 }
 
-body {
-    max-width: 1200px;
-    margin: 0 auto;
+body {        
     background-color: $color-primary;
 }
 
@@ -21,25 +19,34 @@ hr {
     margin: 35px 0;
 }
 
-.card,
-.modal {
+.main-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+//hover effect credit to CodyHouse (https://codepen.io/codyhouse/pen/KKdrmXj?editors=1100)
+.grid-container:hover .card:not(:hover) {
+    filter: grayscale(100%);
+    opacity: 0.75;
+}
+  
+.grid-container:hover .card:not(:hover)::after {
+    background-color: rgba(#000, 0.5);
+}
+
+.card {
     padding: 5px;
-    border: 2px solid $border-color;
-    border-radius: 10px;
+    border: 1px solid $border-color;
+    border-radius: 5px;
     background-color: $colo-secondary;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 .modal {
-    text-align: center;
-
     p {
         margin: 10px 0;
     }
-}
-
-.modal-close {
-    padding-right: 30px;
-    text-align: end;
 }
 
 .details {
