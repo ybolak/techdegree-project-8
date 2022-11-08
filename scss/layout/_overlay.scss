@@ -1,3 +1,7 @@
+body {
+    position: relative;
+}
+
 .overlay {
     position: absolute;
     top: 0;
@@ -16,6 +20,7 @@
     border: 1px solid $border-color;
     border-radius: 5px;
     padding: 30px 20px;
+    box-shadow: 0 0 30px black;
 }
 
 .modal-close {

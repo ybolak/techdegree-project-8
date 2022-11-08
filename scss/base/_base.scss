@@ -2,7 +2,8 @@
     box-sizing: border-box;
 }
 
-body {        
+body { 
+    padding: 50px;       
     background-color: $color-primary;
 }
 
@@ -19,8 +20,8 @@ hr {
     margin: 35px 0;
 }
 
-.main-wrapper {
-    max-width: 1200px;
+.app-wrapper {
+    max-width: 1240px;
     margin: 0 auto;
 }
 
