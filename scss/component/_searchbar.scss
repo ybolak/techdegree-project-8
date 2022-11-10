@@ -3,7 +3,8 @@
     padding: 20px;
     border: 1px solid $border-color;
     border-radius: 5px;
-    background-color: $colo-secondary
+    background-color: $colo-secondary;
+    box-shadow: 2px 7px 17px #807e7e;
 }
 
 .search-wrapper {
@@ -14,7 +15,7 @@
     display: inline-block;
     font-family: FontAwesome;
     font-style: normal;
-    // font-weight: normal;
+    letter-spacing: 1px;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

@@ -19,7 +19,24 @@
         padding: 20px;
     }
 
+    .header-title-container {
+        width: 1320px;        
+        margin: 0 auto;
+
+        h1 {
+            padding: 0 10px;
+        }
+    }
+
+    .app-wrapper {
+        max-width: 1320px;
+        margin: 0 auto;
+    }
+
+
     .grid-container {
         grid-template-columns: 1fr 1fr 1fr;        
     }
+
 }
+

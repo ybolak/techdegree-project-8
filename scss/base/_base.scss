@@ -2,9 +2,10 @@
     box-sizing: border-box;
 }
 
-body { 
-    padding: 50px;       
-    background-color: $color-primary;
+body {
+    background-image: url('../../css/background-img2.jpg'); 
+    // background-position: center;
+    background-repeat: no-repeat;
 }
 
 h2,
@@ -13,16 +14,12 @@ p {
 }
 
 header {
-   padding: 10px;
+    height: 150px;
+    padding: 10px;
 }
 
 hr {
     margin: 35px 0;
-}
-
-.app-wrapper {
-    max-width: 1240px;
-    margin: 0 auto;
 }
 
 //hover effect credit to CodyHouse (https://codepen.io/codyhouse/pen/KKdrmXj?editors=1100)
@@ -30,16 +27,16 @@ hr {
     filter: grayscale(100%);
     opacity: 0.75;
 }
-  
+
 .grid-container:hover .card:not(:hover)::after {
     background-color: rgba(#000, 0.5);
 }
 
 .card {
-    padding: 5px;
     border: 1px solid $border-color;
     border-radius: 5px;
     background-color: $colo-secondary;
+    box-shadow: 2px 7px 17px #807e7e;;
     transition: 0.5s;
     cursor: pointer;
 }
